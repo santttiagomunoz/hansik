@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hansik - Inicio</title>
+    <link rel="icon" href="img/logo2.png" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-stone-100 text-stone-800 flex flex-col min-h-screen">
@@ -31,6 +32,84 @@
 
         </nav>
     </header>
+
+    <main>
+         <!--Seccion presentacion -->
+        <section class="relative min-h-screen flex flex-col justify-center items-center text-center text-white px-4 bg-cover bg-center" style="background-image: url('img/inicio.jpeg');">
+        
+            <div class="absolute inset-0 bg-black/50"></div>
+
+            <!-- Contenido Principal -->
+            <div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
+                
+            
+                <span class="text-xs md:text-sm uppercase tracking-widest text-stone-300 mb-4 font-sans">
+                Una mesa · Muchas historias
+                </span>
+
+                <h1 class="font-serif text-4xl md:text-6xl lg:text-7xl tracking-wide mb-6 leading-tight">
+                El corazón de Seúl <br>en cada plato
+                </h1>
+
+                <p class="text-sm md:text-base text-stone-200 max-w-xl mb-8 font-sans font-light">
+                Sabores que cruzan generaciones. Recetas tradicionales coreanas preparadas sin prisa, para disfrutarlas juntos.
+                </p>
+
+
+                <div class="flex flex-col sm:flex-row gap-4 items-center">
+                <a href="menu.html" class="bg-[#9c3427] hover:bg-[#822b20] text-white uppercase text-xs font-semibold px-8 py-3 rounded-full transition duration-300">
+                    Descubrir la carta
+                </a>
+                <a href="contacto.html" class="border border-white/80 hover:bg-white hover:text-black text-white uppercase text-xs font-semibold px-8 py-3 rounded-full transition duration-300">
+                    Reservar una mesa
+                </a>
+                </div>
+
+            </div>
+
+            <!-- Indicador inferior con la línea vertical -->
+            <div class="absolute bottom-6 z-10 flex flex-col items-center gap-2">
+                <div class="w-[1px] h-8 bg-white/60"></div>
+                <span class="text-[10px] uppercase tracking-widest text-stone-400 font-sans">
+                Desliza para conocer
+                </span>
+            </div>
+        </section>
+        <!--Seccion significado -->
+        <section class="bg-[#f7f4ec] px-6 py-16 text-[#282522] md:min-h-[calc(100vh-5rem)] md:py-12">
+            <div class="mx-auto grid max-w-5xl items-center gap-12 md:grid-cols-2 md:gap-10">
+                <div class="relative">
+                    <img
+                        src="img/bibimbap.jpg"
+                        alt="Bibimbap y acompañamientos coreanos preparados en casa"
+                        class="h-80 w-full rounded-t-[8rem] object-cover object-[center_38%] sm:h-96 md:h-[min(72vh,438px)]"
+                    >
+                    <div class="absolute -bottom-6 right-0 flex h-24 w-24 translate-x-1/4 items-center justify-center rounded-full bg-[#a6382b] text-center text-[9px] font-semibold uppercase leading-tight tracking-[0.12em] text-white">
+                        <span>Desde<br>1998<br>서울</span>
+                    </div>
+                </div>
+
+                <div class="max-w-lg md:pl-0">
+                    <p class="mb-3 text-[9px] font-bold uppercase tracking-[0.35em] text-[#a6382b]">
+                        Nuestra cocina
+                    </p>
+                    <h2 class="mb-6 font-serif text-4xl leading-[1.15] text-[#282522] sm:text-5xl">
+                        Tradición que se siente en casa
+                    </h2>
+                    <p class="mb-4 text-sm leading-relaxed text-stone-600 sm:text-[15px]">
+                        Hansik significa “comida coreana”, pero para nosotros significa mucho más: es el olor del arroz recién hecho, el kimchi de la abuela y una mesa donde siempre cabe alguien más.
+                    </p>
+                    <p class="mb-7 text-[13px] leading-relaxed text-stone-500">
+                        Seleccionamos ingredientes locales y fermentamos nuestras salsas en casa. Cada plato respeta su origen y, al mismo tiempo, cuenta nuestra historia en Madrid.
+                    </p>
+                    <a href="pages/carta.html" class="inline-flex items-center gap-3 border-b border-[#282522] pb-2 text-[9px] font-bold uppercase tracking-[0.2em] transition-colors hover:text-[#a6382b]">
+                        Nuestra filosofía
+                        <span aria-hidden="true" class="text-base leading-none">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
 
 </body>
 </html>
