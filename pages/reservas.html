@@ -31,9 +31,94 @@
 
         </nav>
     </header>
-    <main class="">
 
+    <main class="grid grid-cols-1  lg:grid-cols-2 p-10">
+        <img src="" alt="" class="w-1/2">
+        <div class="">
+            <span class="flex flex-col text-red-900 text-xs">TE ESPERAMOS</span>
+            <h1 class="text-4xl">Reserva tu mesa</h1>
+            <p>Cuéntanos cuándo vienes y nosotros nos ocupamos del resto.</p>
+            <div class="mt-10">
+            <form action="">
+                <div class="flex flex-col">
+                    <label for="">nombre completo</label>
+                    <input class="rounded-md h-10" type="text" placeholder="como te llamas?" >
+                </div>
+                <div class="flex">
+                    <div class="flex flex-col w-1/2 mt-5 mr-5">
+                        <label for="">EMAIL</label>
+                        <input class="rounded-md h-10" type="text" placeholder="tu@email.com">
+                    </div>
+                    <div class="flex flex-col w-1/2 mt-5">
+                        <label for="">TELEFONO</label>
+                        <input class="rounded-md h-10" type="text" placeholder="+57 300 000 000">
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="flex flex-col w-1/2 mt-5 mr-5">
+                        <label for="">FECHA</label>
+                        <input class="rounded-md h-10" type="text" placeholder="tu@email.com">
+                    </div>
+                    <div class="flex flex-col w-1/2 mt-5">
+                        <label for="">HORA</label>
+                        <input class="rounded-md h-10" type="text" placeholder="+57 300 000 000">
+                    </div>
+                </div>
+                <div class="flex flex-col mt-5">
+                    <label for="">COMESALES</label>
+                    <select class="rounded-md h-10" name="comensales" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">6+</option>
+                    </select>
+                </div>
+                <div class="flex flex-col mt-5">
+                    <label for="">NOTAS(OPCIONAL)</label>
+                    <textarea class="rounded-md resize-none h-20" name="" id="" placeholder="Alergias, celebracion especial"></textarea>
+                </div>
+                <div class="flex flex-col mt-5">                    
+                    <input class="rounded-2xl bg-red-900 h-10 text-slate-200 hover:bg-amber-800" type="button" value="SOLICITAR RESERVA">
+                </div>
+            </form>
+            <span class="flex flex-col justify-center items-center mt-2 text-sm text-gray-500">La reserva quedara confirmada al recibir nuestro email</span>
+        </div>
+        </div>
+        <div class="lg:col-span-2 mt-20">
+            <span class="flex flex-col justify-center items-center text-sm text-red-900">ANTES DE VENIR</span>
+            <h2 class="flex flex-col justify-center items-center font-bold text-3xl tracking-widest mb-5">PREGUNTAS FRECUEENTES</h2>     
+
+              <details class="flex flex-col justify-start border-y py-5" value="">
+                <summary class="">
+                    Teneis opciones vegetarianas
+                </summary>
+                <p>si, contamos con opciones vegetarianas</p>
+            </details>
+            <details class="flex flex-col justify-start border-y py-5">
+                <summary>
+                    puedo modificar mi reserva?
+                </summary>
+                <p>Puedes modificarla hasta 4 horas antes llamando directamente a la sucursal elegida.</p>
+            </details>
+            <details class="flex flex-col justify-start border-y py-5">
+                <summary>
+                    aceptais grupos grandes?
+                </summary>
+                <p>Para grupos de 7 o más personas, escríbenos y diseñaremos un menú para compartir.</p>
+            </details>
+            <details class="flex flex-col justify-start border-y py-5">
+                <summary>
+                    el restaurante es accesible?
+                </summary>
+                <p>Todas nuestras sedes cuentan con acceso adaptado. En Echegaray, avísanos para asignarte la mesa más cómoda.</p>
+            </details>              
+            
+        </div>
+        
     </main>
+
     <footer class="bg-black text-white px-6 pt-10">    
     <div class="grid grid-cols-1 sm:grid-cols-4 pb-6 mb-6">
         <div>
