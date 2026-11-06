@@ -31,9 +31,145 @@
 
         </nav>
     </header>
-    <main class="">
+   
+     <main class="flex-grow grid grid-cols-1 lg:grid-cols-2">
+
+        <!-- Información sucursales -->
+        <section class="px-6 md:px-10 py-12 lg:py-16 flex flex-col justify-center">
+
+            <div class="mb-10">
+                <p class="text-[10px] tracking-[2px] font-bold text-amber-800 mb-2">
+                    ENCUÉNTRANOS
+                </p>
+
+                <h1 class="text-4xl md:text-5xl font-serif mb-5">
+                    Tu mesa está cerca
+                </h1>
+
+                <p class="text-stone-500 text-base leading-relaxed max-w-lg">
+                    Tres rincones, la misma hospitalidad.
+                    Elige tu Hansik y ven a compartir.
+                </p>
+            </div>
+
+
+            <!-- Sucursales -->
+            <div class="flex flex-col gap-3">
+
+                <!-- 1 -->
+                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63463.193125851605!2d-75.64529573583995!3d6.204274645754569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44299421ba0603%3A0x3dd555cf8a67a785!2sKin%20BBQ%20(Korean%20BBQ)!5e0!3m2!1ses-419!2sco!4v1793967967366!5m2!1ses-419!2sco"
+                    target="mapa"
+                    class="group p-5 border border-stone-300 bg-transparent focus:bg-white focus:border-[#a93222] transition-all flex justify-between items-center">
+                    
+                    <div>
+
+                        <p class="text-[10px] tracking-[2px] font-bold text-amber-800 mb-2">
+                            LAURELES
+                        </p>
+
+                        <h2 class="text-2xl font-serif mb-4">
+                            Laureles - Estadio
+                        </h2>
+
+                        <p class="text-sm text-stone-600 mb-2">
+                            Av. 80 # 34a 75, Laureles, Medellín
+                        </p>
+
+                        <p class="text-xs text-stone-500">
+                            Horario: L-D 13:00–23:00
+                        </p>
+
+                    </div>
+
+                    <span
+                        class="w-9 h-9 shrink-0 rounded-full bg-stone-200 flex items-center justify-center group-hover:bg-[#a93222] group-hover:text-white transition-all">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- 2 -->
+                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7932.764195955216!2d-75.58294887917259!3d6.2132337388637735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429ab1ac09ecf%3A0x59f93d67515d39f4!2sSOUL%20Korean%20Food!5e0!3m2!1ses-419!2sco!4v1793968146035!5m2!1ses-419!2sco"
+                    target="mapa"
+                    class="group p-5 border border-stone-300 bg-transparent focus:bg-white focus:border-[#a93222] transition-all flex justify-between items-center">
+
+                    <div>
+
+                        <p class="text-[10px] tracking-[2px] font-bold text-[#a93222] mb-2">
+                            EL POBLADO
+                        </p>
+
+                        <h2 class="text-2xl font-serif mb-4">
+                            Poblado
+                        </h2>
+
+                        <p class="text-sm text-stone-600 mb-2">
+                            Cra. 37 #10-8, El Poblado, Medellín
+                        </p>
+
+                        <p class="text-xs text-stone-500">
+                            Horario: L-D 13:00–23:30
+                        </p>
+
+                    </div>
+
+                    <span
+                        class="w-9 h-9 shrink-0 rounded-full bg-stone-200 flex items-center justify-center group-hover:bg-[#a93222] group-hover:text-white transition-all">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- 3 -->
+                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7932.802778944437!2d-75.57824563365241!3d6.210673497072108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429f110bfca99%3A0x10aaa704fdc2430c!2s678%20Korean%20BBQ!5e0!3m2!1ses-419!2sco!4v1793968338619!5m2!1ses-419!2sco"
+                    target="mapa"
+                    class="group p-5 border border-stone-300 bg-transparent focus:bg-white focus:border-[#a93222] transition-all flex justify-between items-center">
+
+                    <div>
+
+                        <p class="text-[10px] tracking-[2px] font-bold text-[#a93222] mb-2">
+                            EL POBLADO
+                        </p>
+
+                        <h2 class="text-2xl font-serif mb-4">
+                            Poblado - Zona Rosa
+                        </h2>
+
+                        <p class="text-sm text-stone-600 mb-2">
+                            Cra. 35 #10b-29, El Poblado, Medellín
+                        </p>
+
+                        <p class="text-xs text-stone-500">
+                            Horario: L-D 13:00–23:00
+                        </p>
+
+                    </div>
+
+                    <span
+                        class="w-9 h-9 shrink-0 rounded-full bg-stone-200 flex items-center justify-center group-hover:bg-[#a93222] group-hover:text-white transition-all">
+                        →
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- MAPA -->
+        <section class="min-h-[450px] lg:min-h-full border-l border-stone-300">
+
+            <iframe name="mapa" src="https://www.google.com/maps?q=Medell%C3%ADn%2C%20Colombia&output=embed"
+                class="w-full h-full min-h-[450px] lg:min-h-[700px] border-0" loading="lazy" allowfullscreen>
+            </iframe>
+
+        </section>
 
     </main>
+
     <footer class="bg-black text-white px-6 pt-10">    
     <div class="grid grid-cols-1 sm:grid-cols-4 pb-6 mb-6">
         <div>
