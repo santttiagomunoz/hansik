@@ -12,7 +12,7 @@
         <nav class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
             
             <!-- Logo -->
-            <a href="../index.html" class="border-2 border-dashed border-stone-400 px-4 py-2 text-xs font-bold">
+            <a href="../index.html" class="border-2 border-stone-400 px-4 py-2 text-xs font-bold">
                 LOGO
             </a>
 
@@ -31,7 +31,151 @@
 
         </nav>
     </header>
-    <main class="">
+    <main class="bg-[f3f4ec]">
+        <div>
+            <section class="py-28 px-6 text-center font-sans">
+                 <p class="text-xs font-semibold uppercase tracking-[0.25em] text-[#a0450f] mb-2">Sabores de Corea</p>
+                 <h1 class="font-serif font-light text-6xl md:text-8xl text-[#2b2622] leading-none mb-8">
+                    Nuestra carta
+                </h1>
+                <p class="max-w-xl mx-auto text-base md:text-lg text-[#6b6259] leading-relaxed">
+                    Cocinamos cada plato al momento. Nuestra carta viaja por Corea a través de recetas familiares, fermentos vivos y producto local.
+                </p>
+            </section>
+        </div>
+        <section class="py-16 px-6 font-sans">
+            <div class="max-w-5xl mx-auto">
+            <div class="flex flex-wrap justify-center gap-2 mb-10">
+                 <button class="filtro px-6 py-2 rounded-full text-xs font-semibold uppercase tracking-[0.2em] bg-[#9b2f22] text-white border border-[#9b2f22]" data-filtro="todo">Todo</button>
+                 <button class="filtro px-6 py-2 rounded-full text-xs font-semibold uppercase tracking-[0.2em] text-stone-800 border border-stone-300 hover:border-stone-500" data-filtro="bentos">Bentos</button>
+                 <button class="filtro px-6 py-2 rounded-full text-xs font-semibold uppercase tracking-[0.2em] text-stone-800 border border-stone-300 hover:border-stone-500" data-filtro="ramen">K-Ramen</button>
+                 <button class="filtro px-6 py-2 rounded-full text-xs font-semibold uppercase tracking-[0.2em] text-stone-800 border border-stone-300 hover:border-stone-500" data-filtro="bebidas">Bebidas</button>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  
+  <article class="plato group flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300" data-categoria="bentos">
+    <div class="relative">
+      <img src="../img/bugolgi.jpg" alt="Bento Bulgogi" class="w-full h-48 object-cover">
+      <span class="absolute top-2 left-3 bg-stone-800 text-white text-[10px] font-semibold uppercase tracking-wider px-2 py-1 rounded">Suave</span>
+    </div>
+    <div class="p-6 flex-1">
+      <div class="flex items-baseline justify-between mb-3">
+        <h3 class="font-serif text-2xl text-stone-800">Bento Bulgogi</h3>
+        <span class="font-serif text-xl text-[#a0450f]">$$$</span>
+      </div>
+      <p class="text-sm text-stone-500">Ternera marinada, arroz, mandu y banchan del día.</p>
+    </div>
+  </article>
+  
+  <article class="plato group flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300" data-categoria="bentos">
+    <div class="relative">
+      <img src="../img/bibimbap.jpg" alt="Bibimbap de la casa" class="w-full h-48 object-cover">
+      <span class="absolute top-2 left-3 bg-emerald-100 text-emerald-800 text-[10px] font-semibold uppercase tracking-wider px-2 py-1 rounded">Medio</span>
+    </div>
+    <div class="p-6 flex-1">
+      <div class="flex items-baseline justify-between mb-3">
+        <h3 class="font-serif text-2xl text-stone-800">Bibimbap de la casa</h3>
+        <span class="font-serif text-xl text-[#a0450f]">$$$</span>
+      </div>
+      <p class="text-sm text-stone-500">Arroz, verduras de temporada, huevo y gochujang.</p>
+    </div>
+  </article>
+  
+  <article class="plato group flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300" data-categoria="bentos">
+    <div class="relative">
+      <img src="../img/dosirak.jpg" alt="Dosirak de pollo" class="w-full h-48 object-cover">
+      <span class="absolute top-2 left-3 bg-red-100 text-red-700 text-[10px] font-semibold uppercase tracking-wider px-2 py-1 rounded">Picante</span>
+    </div>
+    <div class="p-6 flex-1">
+      <div class="flex items-baseline justify-between mb-3">
+        <h3 class="font-serif text-2xl text-stone-800">Dosirak de pollo</h3>
+        <span class="font-serif text-xl text-[#a0450f]">$$$</span>
+      </div>
+      <p class="text-sm text-stone-500">Pollo crujiente, arroz, kimchi y ensalada de sésamo.</p>
+    </div>
+  </article>
+  
+  <article class="plato group flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300" data-categoria="ramen">
+    <div class="relative">
+      <img src="../img/kimchi.jpg" alt="Ramen Kimchi" class="w-full h-48 object-cover">
+      <span class="absolute top-2 left-3 bg-red-100 text-red-700 text-[10px] font-semibold uppercase tracking-wider px-2 py-1 rounded">Picante</span>
+    </div>
+    <div class="p-6 flex-1">
+      <div class="flex items-baseline justify-between mb-3">
+        <h3 class="font-serif text-2xl text-stone-800">Ramen Kimchi</h3>
+        <span class="font-serif text-xl text-[#a0450f]">$$$</span>
+      </div>
+      <p class="text-sm text-stone-500">Caldo profundo, kimchi casero, panceta y huevo.</p>
+    </div>
+  </article>
+  
+  <article class="plato group flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300" data-categoria="ramen">
+    <div class="relative">
+      <img src="../img/doenjang.jpg" alt="Ramen Doenjang" class="w-full h-48 object-cover">
+      <span class="absolute top-2 left-3 bg-stone-800 text-white text-[10px] font-semibold uppercase tracking-wider px-2 py-1 rounded">Suave</span>
+    </div>
+    <div class="p-6 flex-1">
+      <div class="flex items-baseline justify-between mb-3">
+        <h3 class="font-serif text-2xl text-stone-800">Ramen Doenjang</h3>
+        <span class="font-serif text-xl text-[#a0450f]">$$$</span>
+      </div>
+      <p class="text-sm text-stone-500">Miso coreano, setas, tofu, pak choi y cebolleta.</p>
+    </div>
+  </article>
+  
+  <article class="plato group flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300" data-categoria="ramen">
+    <div class="relative">
+      <img src="../img/tteok.jpg" alt="Tteok-Ramen" class="w-full h-48 object-cover">
+      <span class="absolute top-2 left-3 bg-red-700 text-white text-[10px] font-semibold uppercase tracking-wider px-2 py-1 rounded">Muy picante</span>
+    </div>
+    <div class="p-6 flex-1">
+      <div class="flex items-baseline justify-between mb-3">
+        <h3 class="font-serif text-2xl text-stone-800">Tteok-Ramen</h3>
+        <span class="font-serif text-xl text-[#a0450f]">$$$</span>
+      </div>
+      <p class="text-sm text-stone-500">Fideos, pastel de arroz, huevo y caldo de gochujang.</p>
+    </div>
+  </article>
+
+  <article class="plato group flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300" data-categoria="bebidas">
+    <div class="relative">
+      <img src="../img/sikhye.jpg" alt="Sikhye" class="w-full h-48 object-cover">
+    </div>
+    <div class="p-6 flex-1">
+      <div class="flex items-baseline justify-between mb-3">
+        <h3 class="font-serif text-2xl text-stone-800">Sikhye de pera</h3>
+        <span class="font-serif text-xl text-[#a0450f]">$$$</span>
+      </div>
+      <p class="text-sm text-stone-500">Bebida dulce de arroz fermentado y pera nashi.</p>
+    </div>
+  </article>
+  
+  <article class="plato group flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300" data-categoria="bebidas">
+    <div class="relative">
+      <img src="../img/te.jpg" alt="Té de cebada" class="w-full h-48 object-cover">
+    </div>
+    <div class="p-6 flex-1">
+      <div class="flex items-baseline justify-between mb-3">
+        <h3 class="font-serif text-2xl text-stone-800">Té Omija</h3>
+        <span class="font-serif text-xl text-[#a0450f]">$$$</span>
+      </div>
+      <p class="text-sm text-stone-500">Infusion fria de cinco sabores con frutos rojos.</p>
+    </div>
+  </article>
+
+    <article class="plato group flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300" data-categoria="bebidas">
+    <div class="relative">
+      <img src="../img/soju.jpg" alt="Soju premium" class="w-100 h-100 object-cover">
+    </div>
+    <div class="p-6 flex-1">
+      <div class="flex items-baseline justify-between mb-3">
+        <h3 class="font-serif text-2xl text-stone-800">Soju premium</h3>
+        <span class="font-serif text-xl text-[#a0450f]">$$$</span>
+      </div>
+      <p class="text-sm text-stone-500">Destilado coreano limpio, suave y ligeramente floral.</p>
+    </div>
+  </article>
+</div>
 
     </main>
     <footer class="bg-black text-white px-6 pt-10">    
@@ -73,5 +217,30 @@
     </div>
            
    </footer>
+   <script>
+  const botones = document.querySelectorAll('.filtro');
+  const platos = document.querySelectorAll('.plato');
+
+  const activo = ['bg-[#9b2f22]', 'text-white', 'border-[#9b2f22]'];
+  const inactivo = ['text-stone-800', 'border-stone-300'];
+
+  botones.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filtro = btn.dataset.filtro;
+
+      platos.forEach(p => {
+        const mostrar = filtro === 'todo' || p.dataset.categoria === filtro;
+        p.classList.toggle('hidden', !mostrar);
+      });
+
+      botones.forEach(b => {
+        b.classList.remove(...activo);
+        b.classList.add(...inactivo);
+      });
+      btn.classList.remove(...inactivo);
+      btn.classList.add(...activo);
+    });
+  });
+</script>
 </body>
 </html>
